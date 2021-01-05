@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type:none;
+    margin-right: 90px;
+    height: 40px;
+}
+nav ul li{
+    float: right;
+    margin: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #3C3C3C;
+    display: inline-block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello-section{
+    margin-top: 80px;
+}
+.hello-section h1{
+    line-height: 60px;
+}
+
+.hello-section div{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 3%;
+}
+.hello-section img{
+    width: 100%;
+}
+.hello-section .hello{
+    color: #363958;
+    font-weight: bold;
+    font-size: 80px;
+}
+.hello-section .rob{
+    color: #FF8367;
+    font-weight: bold;
+    font-size: 80px;
+}
+.hello-section p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.hello-section .hire-me-btn{
+    color: white;
+    padding: 15px 40px;
+    background-color:tomato;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.about-section{
+    height: 150vh;
+}
+.about-section div{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 3%;
+}
+.about-section img{
+    width: 95%;
+}
+.about-section h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: #363958;
+}
+.about-section p{
+    font-size: 16px;
+    color: #3E3E3E;
+    line-height: 24px;
+}
+.about-section .download-btn{
+    color: white;
+    padding: 15px 40px;
+    background-color:tomato;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.project-section{
+    background: #F8F9F6;
+    height: 120vh;
+    padding: 20px 0px;
+}
+
+.project-section div{
+    width: 27%;
+    float: left;
+    margin-left: 5%;
+    padding: 20px 0px;
+    box-shadow:.1px .1px 15px ;
+    border-radius: 24px;
+    
+}
+.project-section img{
+    width:100%;
+}
+.project-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 50px 0;
+}
+.project-section .latest{
+    color: #F46060;
+}
+.project-section .working{
+    color: #363958;
+}
+.project-section h2{
+    color: #363958;
+    text-align: center;
+}
+.project-section p{
+    color:#6C6C6C;
+    text-align: center;
+    line-height: 28px;
+}
+
+.inquiry-section .left-side span{
+   float: left;
+   margin-left: 300px;
+   font-weight: bold;
+   font-size: 53px;
+   font-family:'Bebas Neue', cursive;
+   text-align: left;
+   margin-top: 130PX;
+   color:#FFFFFF;
+   letter-spacing: 5PX;
+} 
+
+.inquiry-section .right-side{
+    float: right;
+    margin-right: 305px ;
+    margin-top: 120px;
+}
+.inquiry-section .right-side .chat-btn{
+    color: white;
+    padding: 12px 22px;
+    background-color:tomato;
+    font-size: 17px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+
+}
+.inquiry-section{
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    height: 325px;
+    background-size: 65%;
+    background-position:center center;
+}
+
+.footer-section{
+    height: 30vh;
+}
+.footer-section h1{
+    color:#696871;
+    text-align:center;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.footer-section h2{
+    color:#363958;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+.footer-section ul{
+    margin-right: 530px;
+}
+.footer-section ul li{
+    float: right;
+    margin-left: -62px;
+}
+.footer-section li img{
+    width: 30%;
+}
